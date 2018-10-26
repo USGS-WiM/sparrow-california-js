@@ -1153,7 +1153,7 @@ require([
                             //UPDATE important! make sure the field names match what is in the REST layer
                             calibrationTemplate.setContent(
                                 "<div><b>Station Name:</b> " +
-                                    responseObj.feature.attributes.STATION_ID+
+                                    responseObj.feature.attributes.STATION_ID +
                                     "</div><br>" +
                                     "<div><b>Station ID:</b> </b>" +
                                     responseObj.feature.attributes.STATION_NA +
