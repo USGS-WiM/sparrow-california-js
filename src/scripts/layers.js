@@ -104,7 +104,7 @@ require([
             showGroupHeading: true,
             includeInLayerList: true,
             layers: {
-                "Pacific Northwest Streams": {
+                "California Streams": {
                     url: serviceBaseURL,
                     visibleLayers: [20],
                     options: {
