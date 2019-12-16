@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="styles/vendor.css">
 
     <!-- CSS for the mapping components -->
-    <link rel="stylesheet" href="https://js.arcgis.com/3.21/esri/css/esri.css">
+    <link rel="stylesheet" href="https://js.arcgis.com/3.26/esri/css/esri.css">
 
     <link rel="stylesheet" href="styles/main.css">
     <!-- <link rel="stylesheet" href="styles/base.css"> -->
@@ -18,7 +18,7 @@
     <link rel='icon' href='images/faviconsmall.png' type='image/png' />
 
     <script src="scripts/vendor.js"></script>
-    <script type="text/javascript" src="https://js.arcgis.com/3.21/"></script>
+    <script type="text/javascript" src="https://js.arcgis.com/3.26/"></script>
 
 
     <script src="scripts/combined.js"></script>
@@ -167,11 +167,11 @@
                                 <b>Documentation of the SPARROW model for  California</b>
                                 <br/> Domagalski, J.L. and Saleh, D. (2015). Sources and Transport of Phosphorus 
                                 to Rivers in California and Adjacent States, U.S., as Determined by SPARROW Modeling. 
-                                Journal of the American Water Resources Association (JAWRA) 51(6):1463-1486.
-                                <br/>Saleh, Dina and Joseph Domagalski, 2015. SPARROW Modeling of Nitrogen Sources 
+                                Journal of the American Water Resources Association (JAWRA) 51(6):1463-1486. <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/1752-1688.12326" target="_blank">https://onlinelibrary.wiley.com/doi/abs/10.1111/1752-1688.12326</a>
+                                <br/><br/>Saleh, Dina and Joseph Domagalski, 2015. SPARROW Modeling of Nitrogen Sources 
                                 and Transport in Rivers and Streams of California and Adjacent States, U.S. 
                                 Journal of the American Water Resources Association (JAW-RA) 51(6):1487-1507. 
-                                DOI: 10.1111/1752-1688.12325.
+                                <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/1752-1688.12325" target="_blank">https://onlinelibrary.wiley.com/doi/abs/10.1111/1752-1688.12325</a>.
                                 <br/>
                             </p>
 
@@ -183,7 +183,7 @@
                                 Water-Quality Model: Theory, Application, and User Documentation. U.S. Geological Survey
                                 Techniques and Methods Report, Book 6, Chapter B3.
                                 <a href="https://pubs.usgs.gov/tm/2006/tm6b3/" target="blank">https://pubs.usgs.gov/tm/2006/tm6b3/</a>;
-                                <br/> Preston, S.D., Alexander, R.B., Woodside, M.D., and Hamilton, P.A., 2009, SPARROW MODELING
+                                <br/><br/> Preston, S.D., Alexander, R.B., Woodside, M.D., and Hamilton, P.A., 2009, SPARROW MODELING
                                 - Enhancing Understanding of the Nation's Water Quality: U.S. Geological Survey Fact Sheet
                                 2009-3019, 6 p.
                                 <a href="https://pubs.usgs.gov/fs/2009/3019/" target="blank">https://pubs.usgs.gov/fs/2009/3019/</a>
@@ -194,27 +194,13 @@
 
                             <p class="p-meta p-light fullwidth">
                                 <b>The relationship between the scale of reporting of model results and uncertainty:</b>
-                                <br/>Model results can be displayed at several watershed scales. The smallest scale that
-                                could be used for reporting is the catchment scale at which model computations are made –
-                                for the Pacific Northwest models these were the 12,037 RF1 catchments, which had an average
-                                size of 65 square kilometers. The results were aggregated up to larger scales for this mapping
-                                application: 218 HUC8 watersheds with an average size of 3,590 square kilometers, 22 HUC6
-                                watersheds with an average size of 35,550 square kilometers, and 12 HUC4 watersheds with
-                                an average size of 65.180 square kilometers. The SPARROW model is, in theory, “scale independent.”
-                                However, the uncertainty associated with SPARROW predictions is expected to increase for
-                                drainage basin sizes smaller than those of the stream monitoring sites used to calibrate
-                                the model.
+                                <br/>Model results can be displayed at several watershed scales. The smallest scale that could be used for reporting is the catchment scale at which model computations are made – for the California models these were the approximately 140,000 NHDPlus catchments (Horizon Systems, 2013), which had an average size of 2.8 square kilometers. The results were aggregated up to larger scales for this mapping application: 126 HUC8 watersheds with an average size of 3,278 square kilometers, 16 HUC6 watersheds with an average size of 25,820 square kilometers, and 10 HUC4 watersheds with an average size of 41,312 square kilometers. The SPARROW model is, in theory, “scale independent.” However, the uncertainty associated with SPARROW predictions is expected to increase for drainage basin sizes smaller than those of the stream monitoring sites used to calibrate the model.
                             </p>
-                            <br/>
+                            
 
                             <p class="p-meta p-light fullwidth">
                                 <b>References:</b>
-                                Saad, D.A., G.E. Schwarz, D.M. Robertson, and N.L. Booth, 2011. 
-                                A Multi-Agency Nutrient Dataset Used to Estimate Loads, Improve Monitoring Design, 
-                                and Calibrate Regional Nutrient SPARROW Models. Journal of the American Water Resources Association 
-                                47(5):933–949, doi: 10.1111/j.1752-1688.2011.00575.x.
-                                <a href="Horizon Systems, 2013, NHDPlusV2Data: Horizon Systems database, accessed March 18, 2013, at http://www.horizon-systems.com/nhdplus/." target="_blank">Horizon Systems, 2013, NHDPlusV2Data: Horizon Systems database, 
-                                    accessed March 18, 2013, at http://www.horizon-systems.com/nhdplus/.</a>
+                                <br/>Horizon Systems, 2013, NHDPlusV2Data: Horizon Systems database, accessed March 18, 2013, at <a href="http://www.horizon-systems.com/nhdplus/" target="_blank">http://www.horizon-systems.com/nhdplus/.</a>
                             </p>
 
 
@@ -277,7 +263,7 @@
                             </p>
                             <p class="p-meta p-light fullwidth">
                                 <b>Aggregated Load</b>
-                                <br/> For results grouped by 8-digit HUC, tributary outlet, main watershed or state, aggregated
+                                <br/> For results grouped by 4-digit, 6-digit, 8-digit HUC or state, aggregated
                                 load represents the sum of incremental loads for those selected areas. Results aggregated
                                 by State include input from catchments that cross state borders. For these catchments, the
                                 loads were assumed to be uniformly distributed throughout the catchment. Therefore, inputs
@@ -312,7 +298,7 @@
                             </p>
                             <p class="p-meta p-light fullwidth">
                                 <b>Delivered Aggregated Load</b>
-                                <br/> For results grouped by 8-digit HUC, tributary outlet, main watershed or state, delivered
+                                <br/> For results grouped by 4-digit, 6-digit, 8-digit HUC or state, delivered
                                 aggregated load represents the sum of delivered incremental loads for those selected areas.
                                 Delivery fraction is defined below. Results aggregated by State include input from catchments
                                 that cross state borders. For these catchments, the loads were assumed to be uniformly distributed
