@@ -6,7 +6,7 @@ THIS CONFIG REMOVES CATCHMENT AND AGGREGATE LABELS FROM THE CHARTOUTFIELS OBJECT
 Also removes PNAME and replaces it with COMID and ST_COMID
 */
 
-var appTitle = "California Nutrient Loading";
+var appTitle = "California 2002 Nutrient Loading";
 var appVersion = "v0.9.0";
 /* replace URL with most recent project services URL*/ 
 var serviceBaseURL = "https://sparrowtest.wim.usgs.gov/arcgis/rest/services/SparrowCalifornia/SparrowCalifornia/MapServer/"; //important! UPDATE rest service URL
@@ -35,10 +35,10 @@ var groupResultsLabels = {
 }
 
 //download locations TODO change the links for each shapefile
-var phosphorusShapefileURL = 'https://test.wim.usgs.gov/sparrow-california-test/Downloads/mrb8_tp_mapper_results.zip';
-var nitrogenShapefileURL = 'http://test.wim.usgs.gov/sparrow-california-test/Downloads/mrb8_tn_mapper_results.zip';
-var phosCalibrationURL = 'http://test.wim.usgs.gov/sparrow-california-test/Downloads/mrb8_tp_calibration_sites.zip';
-var nitroCalibrationURL = 'http://test.wim.usgs.gov/sparrow-california-test/Downloads/mrb8_tn_calibration_sites.zip';
+var phosphorusShapefileURL = 'https://sparrow.wim.usgs.gov/sparrow-california-2002/Downloads/mrb8_tp_mapper_results.zip';
+var nitrogenShapefileURL = 'http://sparrow.wim.usgs.gov/sparrow-california-2002/Downloads/mrb8_tn_mapper_results.zip';
+var phosCalibrationURL = 'http://sparrow.wim.usgs.gov/sparrow-california-2002/Downloads/mrb8_tp_calibration_sites.zip';
+var nitroCalibrationURL = 'http://sparrow.wim.usgs.gov/sparrow-california-2002/Downloads/mrb8_tn_calibration_sites.zip';
  
 var tableOutFields = [
     { field: "FID", name: "Unique Feature Id"},
