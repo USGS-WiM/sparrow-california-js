@@ -35,10 +35,10 @@ var groupResultsLabels = {
 }
 
 //download locations TODO change the links for each shapefile
-var phosphorusShapefileURL = 'https://test.wim.usgs.gov/sparrow-california-test/Downloads/mrb8_tp_mapper_results.zip';
-var nitrogenShapefileURL = 'http://test.wim.usgs.gov/sparrow-california-test/Downloads/mrb8_tn_mapper_results.zip';
-var phosCalibrationURL = 'http://test.wim.usgs.gov/sparrow-california-test/Downloads/mrb8_tp_calibration_sites.zip';
-var nitroCalibrationURL = 'http://test.wim.usgs.gov/sparrow-california-test/Downloads/mrb8_tn_calibration_sites.zip';
+var phosphorusShapefileURL = 'https://sparrow.wim.usgs.gov/sparrow-california-2002/Downloads/mrb8_tp_mapper_results.zip';
+var nitrogenShapefileURL = 'http://sparrow.wim.usgs.gov/sparrow-california-2002/Downloads/mrb8_tn_mapper_results.zip';
+var phosCalibrationURL = 'http://sparrow.wim.usgs.gov/sparrow-california-2002/Downloads/mrb8_tp_calibration_sites.zip';
+var nitroCalibrationURL = 'http://sparrow.wim.usgs.gov/sparrow-california-2002/Downloads/mrb8_tn_calibration_sites.zip';
  
 var tableOutFields = [
     { field: "FID", name: "Unique Feature Id"},
